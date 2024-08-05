@@ -26,7 +26,7 @@ int main()
     srand(::timeGetTime());
 
     bool bLoop = true;
-    while (true)
+    while (bLoop)
     {
         char ch = getchar();
         // skip ctrl char
